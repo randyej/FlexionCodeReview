@@ -1,0 +1,22 @@
+{
+  "name": "flexion-code-challenge",
+  "version": "1.0.0",
+  "description": "Fun with triangles!",
+  "main": "index.js",
+  "scripts": {
+    "triangle": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "some-git-repo"
+  },
+  "author": "Randy Johnson",
+  "license": "ISC",
+  "bin": {
+    "triangle": "./index.js"
+  },
+  "dependencies": {
+    "yargs": "^6.6.0"
+  }
+}
