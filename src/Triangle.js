@@ -7,9 +7,9 @@ class Triangle {
   static get TYPE_SCALENE() { return 'scalene'; }
 
   constructor(lineA /*:number*/, lineB /*:number*/, lineC /*:number*/) {
-    this.lineA = lineA;
-    this.lineB = lineB;
-    this.lineC = lineC;
+    this.lineA = Number.parseFloat(lineA);
+    this.lineB = Number.parseFloat(lineB);
+    this.lineC = Number.parseFloat(lineC);
     
     this.type = undefined;
     this.updateType();

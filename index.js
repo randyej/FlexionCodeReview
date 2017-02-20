@@ -9,9 +9,6 @@ const Triangle = require('./src/Triangle');
 // }
 // logArgv(argv);
 
-const triangle = new Triangle(
-  Number.parseFloat(argv.side1),
-  Number.parseFloat(argv.side2),
-  Number.parseFloat(argv.side3));
+const triangle = new Triangle(argv.side1, argv.side2, argv.side3);
 
 console.log(`\n  |> Triangle type: ${triangle}\n`);
