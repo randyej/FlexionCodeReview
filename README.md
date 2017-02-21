@@ -19,6 +19,11 @@ Run with:
 $ triangle --side1=1.1 --side2=2.2 --side3=3.3
 ```
 
+Test with:
+```
+$ npm test
+```
+
 
 Tools to consider for writing command line apps:
 
